@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/styles/home.css">
+    <script src="https://kit.fontawesome.com/246f3ed870.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <title>Catalyst - Maps</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav>
+            <div class="navbar">
+                <a href="../index.html"><i class="fa-solid fa-house"></i></a>
+                <div class="dropdown">
+                    <button class="dropbtn" id="selected">Game Info</button>
+                    <div class="dropdown-content">
+                        <a href="../game-info/maps.html">Maps</a>
+                        <a href="../game-info/arsenal.html">Arsenal</a>
+                    </div>
+                </div>
+                <a href="../news.html">News</a>
+            </div>
+        </nav>
+        <h1 style="color:red;">Maps - page for all maps<span style="font-size: x-small;">(this is placeholder text)</span></h1>
+        <div class="preloader-wrapper">
+            <div id="preloader"></div>
+        </div>
+</body>
+<script>
+    $(window).on("load", function () {
+        $(".preloader-wrapper").fadeOut(1200);
+    });
+</script>
+
+</html>
